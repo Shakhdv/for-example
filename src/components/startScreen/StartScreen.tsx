@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./StartScreen.module.css";
 import Categories from "../Categories/Categories";
 import img from "../../assets/img.png";
+import KartsTraining from "../pageInfo/OrderTraining/KartsTraining";
+import WhyUsKarts from "../pageInfo/WhyUs/WhyUsKarts";
 const StartScreen = () => {
   return (
     <div className={styles.fullScreen}>
@@ -119,6 +121,8 @@ const StartScreen = () => {
           </div>
         </div>
       </div>
+      <KartsTraining/>
+      <WhyUsKarts/>
     </div>
   );
 };

@@ -47,8 +47,8 @@ const Consultation = () => {
                     <p>Разработаем программу для вашей компании, если среди готовых вариантов вам ничего не подходит.</p>
                     
                     <div className={styles.contacts}>
-                        <p>dadasd@dads</p>
-                        <p>8384832432432</p>
+                        <p>forExample@mail.ru</p>
+                        <p>8(964)-777-77-37</p>
                     </div>
                 </div>
                 <div className={styles.cartsInput}>
@@ -56,7 +56,7 @@ const Consultation = () => {
                     <input value={consultNumber}onChange={handleSetConsultNumber} placeholder='  томер телефона' type="text" />
                     <input value={consultMail} onChange={handleSetConsultMAil} placeholder='  корпоративная почта' type="text" />
                     <input value={consultOrganization} onChange={handleSetConsultOrganization} placeholder='  организация ' type="text" />
-                    <button onClick={handleAddConsults} >fsadasda</button>
+                    <button onClick={handleAddConsults} >отправить</button>
                     <span>Нажимая на кнопку, я соглашаюсь на обработку персональных данных и с правилами пользования Платформой</span>
                 </div>
             </div>

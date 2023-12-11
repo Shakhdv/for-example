@@ -1,7 +1,6 @@
  .consultContainer{
     width: 100%;
     height: 440px;
-    background-color: #070707;
       margin: 30px;
       padding: 30px;
       display: flex;
@@ -25,8 +24,9 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 200px;
-    width: 300px;
+    width: 400px;
     padding-right: 80px;
+    
 }
 .cartsInput{
     height: 400px;

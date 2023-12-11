@@ -23,7 +23,7 @@ import AboutUs from "./components/aboutUs/aboutUs";
 
 function App() {
   const token = useSelector((state) => state.application.token);
-const [open , setOpen] = useState(true)
+const [open , setOpen] = useState(false)
 const handleOpen = ()=>{
   setOpen(!open)
 }
@@ -74,8 +74,8 @@ const handleOpen = ()=>{
             <Route path="/programs" element={<Programs />} />
             <Route path="/programs/:categoryId" element={<Programs />} />
             <Route path="/program/:program" element={<OneProgram />} />
-            <Route path="/karts" element={<KartsTraining />} />
-            <Route path="/kart" element={<WhyUsKarts />} />
+
+
             <Route path="/pro" element={<OurProgramms />} />
             <Route path="/consult" element={<Consultation />} />
             <Route path="/program/:program" element={<OneProgram />} />

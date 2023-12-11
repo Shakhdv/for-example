@@ -46,7 +46,6 @@ const AboutUs = () => {
       <div className={styles.contSvipe}>
         <section className={styles.svipeSect}>
           <h2 className={styles.text}>Лекторий For-Example — открытая площадка для выступлений, воркшопов и других ивентов</h2>
-          <button className={styles.button}>Посмотреть лекции</button>
         </section>
       </div>
 

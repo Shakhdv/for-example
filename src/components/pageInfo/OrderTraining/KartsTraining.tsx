@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./KartsTraining.module.css"
+import { Link } from "react-router-dom";
 
 
 const KartsTraining = () =>{
@@ -9,7 +10,7 @@ const KartsTraining = () =>{
           <div className={styles.title}>
            <h1>Корпоративное обучение для бизнеса</h1>
            <p>Подбираем и разрабатываем образовательные программы с учётом специфики ниши, целей и задач компании.</p>
-           <button>Заказать обучение</button>
+           <button> <Link to={'/consult'} className={styles.qwer}>Заказать обучение</Link></button>
           </div>
           <div className={styles.imgBlock}>
             <img src="https://thumb.tildacdn.com/tild3063-6431-4332-b639-303965313639/-/resize/584x/-/format/webp/Group_11-min.png" alt="" />

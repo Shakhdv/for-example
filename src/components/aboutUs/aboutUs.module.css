@@ -97,6 +97,7 @@
     font-size: 52px;
     line-height: 54px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .button {
@@ -126,6 +127,7 @@
 }
 
 .foundersText {
+    text-align: center;
     font-size: 52px;
     line-height: 54px;
     font-weight: 500px;
@@ -141,6 +143,7 @@
     grid-template-columns: repeat(3,1fr);
     display: flex;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .companyWorkersAvatar img {
